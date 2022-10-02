@@ -35,6 +35,7 @@ const Glossary = () => {
                                                 ? "word__item learned"
                                                 : "word__item"
                                         }
+                                        key={item.id}
                                     >
                                         <td>{item.word}</td>
                                         <td>{item.variants[item.correct]}</td>

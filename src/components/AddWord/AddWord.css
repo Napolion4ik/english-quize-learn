@@ -136,7 +136,7 @@
 }
 .section__add {
     position: relative;
-    height: 86.8vh;
+    height:  calc(100vh - 106px);
     margin-top: -93px;
     padding-top: 132px;
     background-color: #B9848C;

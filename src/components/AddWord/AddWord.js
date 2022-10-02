@@ -50,26 +50,26 @@ const AddWord = () => {
                         wordInUkraine
                     )}
                 >
-                    <div class="text-field">
-                        <label class="text-field__label" for="email">
+                    <div className="text-field">
+                        <label className="text-field__label">
                             Слово на англійській
                         </label>
-                        <div class="text-field__icon-2 text-field__icon-2_email">
+                        <div className="text-field__icon-2 text-field__icon-2_email">
                             <input
                                 onChange={handlerChangeEnglish}
-                                class="text-field__input"
+                                className="text-field__input"
                                 value={wordInEnglish}
                             />
                         </div>
                     </div>
-                    <div class="text-field">
-                        <label class="text-field__label" for="text">
+                    <div className="text-field">
+                        <label className="text-field__label">
                             Слово на українській
                         </label>
-                        <div class="text-field__icon-2 text-field__icon-2_search">
+                        <div className="text-field__icon-2 text-field__icon-2_search">
                             <input
                                 onChange={handlerChangeUkraine}
-                                class="text-field__input"
+                                className="text-field__input"
                                 value={wordInUkraine}
                             />
                         </div>

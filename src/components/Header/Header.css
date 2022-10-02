@@ -39,3 +39,8 @@
 .active-menu a {
     text-decoration: underline;
 }
+.header__logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}

@@ -11,8 +11,12 @@
     margin: 0 auto;
 }
 .content {
-    margin-top: 184px;
+    margin-top: 207px;
     display: flex;
+}
+.content__info {
+
+    width: 100%;
 }
 .content__info h1 {
     font-weight: 700;

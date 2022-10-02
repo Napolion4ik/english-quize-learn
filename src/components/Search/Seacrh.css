@@ -2,4 +2,22 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin-left: -37px;
+}
+.show-translete {
+    top: 48px;
+    position: absolute;
+    padding: 15px 141px 15px 15px;
+    color: white;
+    background-color: #836334;
+    border-radius: 5px;
+}
+.search-input {
+    background: transparent;
+    border: none;
+    outline: 3px solid beige;
+    padding: 5px 31px 5px 10px;
+    margin-right: 5px;
+    color: white;
+    border-radius: 10px;
 }
