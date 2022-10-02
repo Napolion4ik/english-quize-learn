@@ -76,7 +76,7 @@ const AddWord = () => {
                     </div>
                     <div>
                         <button className="form-btn" type="submit">
-                            Отправить
+                            Відправити
                         </button>
                     </div>
                 </form>
