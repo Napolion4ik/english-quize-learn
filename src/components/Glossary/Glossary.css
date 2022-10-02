@@ -1,0 +1,66 @@
+.glossary {
+    background: #2378FC;
+    padding: 10px 0;
+}
+th {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+td {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+
+td:first-child {
+    display: block;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+}
+.word__item {
+
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.word__item-head {
+    
+    border-bottom: 2px solid wheat;
+}
+th:first-child {
+    display: block;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+tr:hover {
+    background-color: rgb(48, 141, 223);
+}
+
+.learned {
+    background-color: rgb(25, 192, 25);
+}
+.learned:hover {
+    background-color: rgb(25, 192, 25);
+}
+.glossary__information  span {
+    display: block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(25, 192, 25);
+}
+.glossary__information p {
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.glossary__information {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

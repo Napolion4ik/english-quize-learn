@@ -1,0 +1,69 @@
+.section__home {
+    margin-top: -93px;
+    padding-top: 50px;
+    height: 100vh;
+    padding-bottom: 53px;
+    background-image: url("../../image/London-1.jpg");
+    background-size: cover;
+}
+.section__wrapper {
+    width: 1114px;
+    margin: 0 auto;
+}
+.content {
+    margin-top: 184px;
+    display: flex;
+}
+.content__info h1 {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 35px;
+    font-size: 64px;
+    line-height: 160%;
+}
+
+.content__moreinfo {
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-end;
+}
+.content__info p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+    color: white;
+ }
+
+.content__card {
+    width: 128px;
+    height: 130px;
+    padding: 30px 80px 30px 40px;
+    background: #2378FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content__card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+.content__car-more {
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+.content__card-blue {
+    background: #30BCC9;
+}
+.content__card-yellow {
+    background: #FFC41E;
+}
+.content__card-red {
+    background: #F6404F;
+}
